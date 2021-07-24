@@ -1,0 +1,70 @@
+ <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/black"
+    tools:context=".MainActivity">
+
+     <TextView
+         android:id="@+id/g_name"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:fontFamily="monospace"
+         android:layout_marginTop="100dp"
+         android:text="PING PONG ARCADE"
+         android:textColor="@color/white"
+         android:textSize="30sp" />
+
+      <Button
+          android:id="@+id/g_start"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:textColor="@color/white"
+          android:fontFamily="monospace"
+          android:layout_marginTop="200dp"
+          android:backgroundTint="@color/black"
+          android:text="Start Game"
+          android:textSize="20sp"  />
+
+     <TextView
+         android:id="@+id/text_score"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="@color/white"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="32dp"
+         android:text="HighScore: 0"
+         android:layout_below="@+id/g_rules"
+         android:fontFamily="monospace"
+         android:textSize="24sp" />
+
+
+      <Button
+          android:id="@+id/g_rules"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:textColor="@color/white"
+          android:fontFamily="monospace"
+          android:layout_marginTop="250dp"
+          android:backgroundTint="@color/black"
+          android:text="Rules"
+          android:textSize="20sp"  />
+
+      <TextView
+          android:id="@+id/g_message"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/white"
+          android:fontFamily="monospace"
+          android:layout_marginTop="500dp"
+          android:backgroundTint="@color/black"
+          android:text="Have Fun :)"
+          android:textSize="25sp"
+          android:layout_centerHorizontal="true" />
+
+ </RelativeLayout>

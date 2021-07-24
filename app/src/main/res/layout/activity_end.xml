@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".EndActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/homepage"
+        android:textSize="30sp"
+        android:visibility="visible"
+        android:text="HOME"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/playAgain"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playAgain"
+        android:textSize="30sp"
+        android:visibility="visible"
+        android:text="Replay"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:fontFamily="monospace"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/g_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:layout_centerHorizontal="true"
+        android:text="Score: 0"
+        android:layout_above="@+id/playAgain"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

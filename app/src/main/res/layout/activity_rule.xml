@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".RuleActivity">
+
+    <TextView
+
+        android:id="@+id/rule_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Rules"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/white"
+        android:textSize="38sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rule_quiz"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:fontFamily="monospace"
+        android:inputType="textMultiLine"
+        android:text="1)Slider moves left and right\n2)Touch and hold the part of screen where you want the slider to go\n3)The score increases by 1 for every successful bounce\n4)Speed of ball increases as time progresses\n5) After a score of 20 is achieved a power up will be presented.Use it or don't"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="GO BACK TO START"
+        android:textSize="33sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="serif-monospace" />
+
+</RelativeLayout>
